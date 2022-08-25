@@ -5,6 +5,7 @@ on:
     branches: [ "origin/v-/repo" ]
    pull_request:
     branches: [ "develop" ]
+workflow_dispatch:
 jobs:
   createPullRequest:
     runs-on: ubuntu-latest
